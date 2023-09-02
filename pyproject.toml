@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "applications"
+version = "0.1.0"
+description = ""
+authors = ["Alhassane <ali75009@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+spacy = "^3.6.1"
+tqdm = "^4.66.1"
+pandas = "^2.1.0"
+click = "^8.1.7"
+setuptools = "^68.1.2"
+wheel = "^0.41.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
